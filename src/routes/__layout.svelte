@@ -3,9 +3,10 @@
 	import '../app.css';
 </script>
 
-<Header />
 
 <main>
+	<Header />
+
 	<slot />
 </main>
 

@@ -3,15 +3,48 @@
 </script>
 
 <script>
+	import { onMount } from 'svelte';
+
 	import Counter from '$lib/Counter.svelte';
 	import { attribute_to_object } from 'svelte/internal';
 	import projects from '../data/projects.json';
 	import partners from '../data/partners.json';
+	import DylanIpsum from "dylan-ipsum";
+	
+	import GameLife from 'game-life';
+	let canvas;
+
+
+	// https://www.npmjs.com/package/game-life
+	onMount(() => {
+		// const ctx = canvas.getContext("2d");
+		const game = GameLife(canvas, {
+			graphics: {
+				board: {width: 600, height: 600},
+				// colors: {background: '#FFFFFF', grid: '#E0E0E0'},
+				cells: {size: 10}
+			},
+			game: {delay: 1000}
+		});
+
+		game.bornCell({x: 100, t: 100}) // Spawn cell
+		game.startEvolution()         // Start 
+		game.speedUp(1.5)             // Speed up 1.5x
+		
+
+	})
+
+
+
+	// ocekava  HTMLCanvasElement a canvas se tomu nelibi
+	// 
 	
 
-	import DylanIpsum from "dylan-ipsum";
-	const bob = new DylanIpsum();
 
+	const bob = new DylanIpsum();
+	import Project from "../components/project.svelte";
+	let posts = [{title: "Post 1", description: "Short description 1", url: "/post1"},
+     {title: "Post 2", description: "Short description 2", url: "/post2"}]
 </script>
 
 <svelte:head>
@@ -19,10 +52,16 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<canvas  bind:this={canvas}></canvas>
+
 
 <!-- Welcome section page -->
 <section>
 	<div class="welcome">
+		
+
+
+
 		<img src="cool-background.png" alt="Welcome" />		
 	</div>
 	<div class="motto">
@@ -35,7 +74,6 @@
 <section class="projects">
 	<h2>Projects</h2>
 	<hr>
-
 
 	<div class="container">
 <!-- Show all projects -->
@@ -93,9 +131,17 @@
 			</address>
 	</section>
 	
+	https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/
 
+
+	{#each posts as post}
+		<Project {...post}/>
+	{/each}
+	
 
 <style>
+
+
 
 	h1 {
 		width: 100%;
