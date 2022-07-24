@@ -7,31 +7,23 @@
 
 	let open = false;
 </script>
-
 <header>
 	<div class="logo">
 		<a href="http://metacity.cc">
 			<img src={logo} alt="Metacity" />
 		</a>
 	</div>
-	
 	<nav>
-	
-
 		<ul>
 			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 			<li class:active={$page.url.pathname === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
 			<li class:active={$page.url.pathname === '/projects'}><a sveltekit:prefetch href="/projects">Projects</a></li>
 		</ul>
-
-		
 		<div class="hamburger">
 		<Hamburger bind:open --padding=0 />
 		</div>
-	
 	</nav>
 </header>
-
 
 {#if open}
     <div>
@@ -44,8 +36,6 @@
 
     <hr transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
 {/if}
-
-
 
 <style>
 		ul {
@@ -69,33 +59,41 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		background-color:red;
+		/* background-color:red; */
 		width:98% !important;
 		padding:1% 1% 1% 1%;
 		align-items: center;
+		position: fixed;
+		background-color: rgb(255,255,255,0.5);
+		 backdrop-filter: blur(5px);
+		/*backdrop-filter: brightness(60%);
+		backdrop-filter: contrast(40%);
+		backdrop-filter: drop-shadow(4px 4px 10px blue);
+		backdrop-filter: grayscale(30%);
+	
+		backdrop-filter: opacity(20%); */ 
+
+		/* backdrop-filter: saturate(80%);  */
+		/* backdrop-filter: invert(70%); */
+		/* backdrop-filter: hue-rotate(120deg); */
+	
 	}
 
-	.logo {
-	
-		background-color: yellow;
+	.logo {	
+		/* background-color: yellow; */
 		display:flex;
 		align-items: center;
 	}
 	.logo a{
-
-	
 		display: flex;
 	}
 	.logo img{
 		max-width: 100%;
-		
-	
 	}
 
 	nav {
 		display: flex;
 	}
-
 
 	/*  Hamburger menu example */
 	p{
@@ -104,12 +102,6 @@
         margin: 1rem auto;
     }
     p:hover {text-decoration: underline;}
-
-
-	
-
-
-	
 
 	nav li {
 		display: flex;

@@ -5,7 +5,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	import Counter from '$lib/Counter.svelte';
+	import Counter from '$lib/header/Counter.svelte';
 	import { attribute_to_object } from 'svelte/internal';
 	import projects from '../data/projects.json';
 	import partners from '../data/partners.json';
@@ -20,31 +20,27 @@
 		// const ctx = canvas.getContext("2d");
 		const game = GameLife(canvas, {
 			graphics: {
-				board: {width: 600, height: 600},
-				// colors: {background: '#FFFFFF', grid: '#E0E0E0'},
-				cells: {size: 10}
+				board: {width: 1000, height: 100},
+				colors: {background: 'blue', grid: 'transparent'},
+				cells: {size: 30}
 			},
 			game: {delay: 1000}
 		});
 
-		game.bornCell({x: 100, t: 100}) // Spawn cell
-		game.startEvolution()         // Start 
-		game.speedUp(1.5)             // Speed up 1.5x
+		game.bornCell({x: 10, t: 10}) // Spawn cell
+
+		
+	
 		
 
 	})
 
-
-
-	// ocekava  HTMLCanvasElement a canvas se tomu nelibi
-	// 
-	
-
-
 	const bob = new DylanIpsum();
 	import Project from "../components/project.svelte";
+
 	let posts = [{title: "Post 1", description: "Short description 1", url: "/post1"},
      {title: "Post 2", description: "Short description 2", url: "/post2"}]
+
 </script>
 
 <svelte:head>
@@ -53,17 +49,8 @@
 </svelte:head>
 
 <canvas  bind:this={canvas}></canvas>
-
-
 <!-- Welcome section page -->
 <section>
-	<div class="welcome">
-		
-
-
-
-		<img src="cool-background.png" alt="Welcome" />		
-	</div>
 	<div class="motto">
 	A set of tools for urban data synthesis, analysis and visualition.
 	</div>
@@ -131,7 +118,7 @@
 			</address>
 	</section>
 	
-	https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/
+	<!-- https://www.programonaut.com/how-to-create-a-blog-with-svelte-step-by-step/ -->
 
 
 	{#each posts as post}
@@ -141,7 +128,9 @@
 
 <style>
 
-
+	canvas{
+	
+	}
 
 	h1 {
 		width: 100%;
