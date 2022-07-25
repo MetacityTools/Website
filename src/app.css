@@ -1,12 +1,10 @@
 @import '@fontsource/fira-mono';
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap');
 
-
 @font-face {
 	font-family: 'RhetorikSansRegular';
 	src: url('./fonts/RhetorikSans/RhetorikSans-Regular.woff2'), format('woff2');
   }
-
 
 :root {
 	/* font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
@@ -41,58 +39,7 @@ body {
 	);
 }
 
-/* body::before {
-	content: '';
-	width: 80vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 10vw;
-	z-index: -1;
-	background: radial-gradient(
-		50% 50% at 50% 50%,
-		var(--pure-white) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-	opacity: 0.05;
-} */
-
-/* #svelte {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-} */
-/* 
-h1,
-h2,
-p {
-	font-weight: 400;
-	color: var(--heading-color);
-}
-
-p {
-	line-height: 1.5;
-}
-
-a {
-	color: var(--accent-color);
-	text-decoration: none;
-} */
-/* 
-a:hover {
-	text-decoration: underline;
-}
-
-h1 {
-	font-size: 2rem;
-	text-align: center;
-}
-
-h2 {
-	font-size: 1rem;
-} */
-
-/* pre {
+ pre {
 	font-size: 16px;
 	font-family: var(--font-mono);
 	background-color: rgba(255, 255, 255, 0.45);
@@ -101,20 +48,4 @@ h2 {
 	padding: 0.5em;
 	overflow-x: auto;
 	color: var(--text-color);
-} */
-
-/* input,
-button {
-	font-size: inherit;
-	font-family: inherit;
-}
-
-button:focus:not(:focus-visible) {
-	outline: none;
-}
-
-@media (min-width: 720px) {
-	h1 {
-		font-size: 2.4rem;
-	}
-} */
+} 
