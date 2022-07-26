@@ -7,15 +7,8 @@
 </header>
 
 <style>
-	ul {
-		display: none !important;
-		list-style: none;
-		padding: 0;
-		margin:0;
-	}
-	
-	/* Desktop version */
 
+	/* Desktop version */
 
 	header {
 		display: flex;
@@ -31,15 +24,6 @@
 		position:fixed;
 	}
 
-	.mobile-menu{
-		background-color: blue;	
-	}
-
-	.break {
-		flex-basis: 100%;
-		height: 0;
-	}
-
 	.logo {	
 		display:flex;
 		align-items: center;
@@ -51,10 +35,6 @@
 	
 	.logo img{
 		max-width: 100%;
-	}
-	
-	nav {
-		display: flex;
 	}
 
 </style>
