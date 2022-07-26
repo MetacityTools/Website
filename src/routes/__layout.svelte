@@ -1,5 +1,5 @@
 <script>
-	import Header from '$lib/header/Header.svelte';
+	import Header from '../components/header.svelte';
 	import '../app.css';
 </script>
 <main>
@@ -8,9 +8,7 @@
 </main>
 
 <footer>
-	
 	<p>not (c) 2022 - Banana Group</p>
-
 </footer>
 
 <style>

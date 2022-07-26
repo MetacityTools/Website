@@ -1,50 +1,38 @@
-[{
-    "id": "0",
-    "name" : "Name 1",
-    "desc" : "Lorem IpsumLorem IpsumLoLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsumrem IpsumLorem IpsumLorem IpsumLorem Ipsum",
-    "img_src"  : "https://via.placeholder.com/300x150/09f.png/fff"
-
- },
- {
-    "id": "0",
-    "name" : "Name 2",
-    "desc" : "LoremLorem IpsumLorem Ipsum IpLorem IpsumLorem IpsumLorem IpsumsuLorem IpsumLorem Ipsumm",
-    "img_src"  : "https://via.placeholder.com/200x300/09f.png/fff"
-
- },
- {
-    "id": "0",
-    "name" : "Name 3",
-    "desc" : "LLorem IpsumLorem IpsumLoreLorem IpsumLorem IpsumLorem Ipsumm ILorem IpsumLorem Ipsumpsumorem Ipsum",
-    "img_src"  : "https://via.placeholder.com/300x100/09f.png/fff"
-
- },{
-   "id": "0",
-   "name" : "Name 1",
-   "desc" : "Lorem IpsumLorem IpsumLoLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsumrem IpsumLorem IpsumLorem IpsumLorem Ipsum",
-   "img_src"  : "https://via.placeholder.com/300x150/09f.png/fff"
-
-},
-{
-   "id": "0",
-   "name" : "Name 2",
-   "desc" : "LoremLorem IpsumLorem Ipsum IpLorem IpsumLorem IpsumLorem IpsumsuLorem IpsumLorem Ipsumm",
-   "img_src"  : "https://via.placeholder.com/200x300/09f.png/fff"
-
-},
-{
-   "id": "0",
-   "name" : "Name 3",
-   "desc" : "LLorem IpsumLorem IpsumLoreLorem IpsumLorem IpsumLorem Ipsumm ILorem IpsumLorem Ipsumpsumorem Ipsum",
-   "img_src"  : "https://via.placeholder.com/300x100/09f.png/fff"
-
-}
-
-
-
-
+[
+   {
+      "id": "0",
+      "name": "Name 1",
+      "desc": "Lorem IpsumLorem IpsumLoLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsumrem IpsumLorem IpsumLorem IpsumLorem Ipsum",
+      "img_src": "https://via.placeholder.com/300x150/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 2",
+      "desc": "LoremLorem IpsumLorem Ipsum IpLorem IpsumLorem IpsumLorem IpsumsuLorem IpsumLorem Ipsumm",
+      "img_src": "https://via.placeholder.com/200x300/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 3",
+      "desc": "LLorem IpsumLorem IpsumLoreLorem IpsumLorem IpsumLorem Ipsumm ILorem IpsumLorem Ipsumpsumorem Ipsum",
+      "img_src": "https://via.placeholder.com/300x100/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 1",
+      "desc": "Lorem IpsumLorem IpsumLoLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsumrem IpsumLorem IpsumLorem IpsumLorem Ipsum",
+      "img_src": "https://via.placeholder.com/300x150/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 2",
+      "desc": "LoremLorem IpsumLorem Ipsum IpLorem IpsumLorem IpsumLorem IpsumsuLorem IpsumLorem Ipsumm",
+      "img_src": "https://via.placeholder.com/200x300/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 3",
+      "desc": "LLorem IpsumLorem IpsumLoreLorem IpsumLorem IpsumLorem Ipsumm ILorem IpsumLorem Ipsumpsumorem Ipsum",
+      "img_src": "https://via.placeholder.com/300x100/09f.png/fff"
+   }
 ]
-
-
-
-

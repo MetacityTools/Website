@@ -1,21 +1,20 @@
-[{
-    "id": "0",
-    "name" : "Name 1",
-    "desc" : "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum",
-    "img_src"  : "https://via.placeholder.com/500x300/09f.png/fff"
-
- },
- {
-    "id": "0",
-    "name" : "Name 2",
-    "desc" : "LoremLorem IpsumLorem Ipsum IpsuLorem IpsumLorem Ipsumm",
-    "img_src"  : "https://via.placeholder.com/500x300/09f.png/fff"
-
- },
- {
-    "id": "0",
-    "name" : "Name 3",
-    "desc" : "LLorem IpsumLorem IpsumLorem ILorem IpsumLorem Ipsumpsumorem Ipsum",
-    "img_src"  : "https://via.placeholder.com/500x300/09f.png/fff"
-
- }]
+[
+   {
+      "id": "0",
+      "name": "Name 1",
+      "desc": "Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum",
+      "img_src": "https://via.placeholder.com/500x300/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 2",
+      "desc": "LoremLorem IpsumLorem Ipsum IpsuLorem IpsumLorem Ipsumm",
+      "img_src": "https://via.placeholder.com/500x300/09f.png/fff"
+   },
+   {
+      "id": "0",
+      "name": "Name 3",
+      "desc": "LLorem IpsumLorem IpsumLorem ILorem IpsumLorem Ipsumpsumorem Ipsum",
+      "img_src": "https://via.placeholder.com/500x300/09f.png/fff"
+   }
+]
