@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>MTCT</title>
+	<title>Metacity</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
