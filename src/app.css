@@ -76,6 +76,17 @@ h1 .emph {
 	margin-bottom: 4rem;
 }
 
+@media(max-width: 40rem) {
+	h1 {
+		text-align: left;
+		font-size: 2.5em;
+	}
+
+	.container.heading {
+		align-items: flex-start;
+	}
+}
+
 #canvasContainer > canvas {
 	border-radius: 1rem;
 }

@@ -32,7 +32,7 @@
 			targeted at developers, urban planners and the general public.
 		</p>
 
-		<p><a href="https://metacity.cc">Try it yourself →</a></p>
+		<p><a href="https://demo.metacity.cc">Try it yourself →</a></p>
 	</div>
 	
 	<div id="services">
