@@ -168,7 +168,26 @@ h1 .emph {
 }
 
 #howitworks img {
+	margin-top: 2rem;
 	max-width: 100%;
+}
+
+@media (max-width: 40rem) {
+	#howitworks {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#howitworks h2 {
+		width: 100%;
+	}
+
+	#howitworks img {
+		content: url('/assets/process-vertical.svg');
+		max-width: 15rem;
+		width: 100%;
+	}
 }
 
 h3 {

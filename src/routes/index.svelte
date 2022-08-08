@@ -39,7 +39,7 @@
 		<h2>What else you can get</h2>
 		<div id="serviceContainer">
 		<div class="serviceItem">
-			<img src="assets/data_proces.png" alt="Geo Data Processing">
+			<img src="assets/data_proces.svg" alt="Geo Data Processing">
 			<h3>Data processing</h3>
 			<p>
 				Filtering and optimizing geometry, combining 2D and 3D data. All
@@ -47,7 +47,7 @@
 			</p>
 		</div>
 		<div class="serviceItem">
-			<img src="assets/wab_viz.png" alt="Web visualization">
+			<img src="assets/wab_viz.svg" alt="Web visualization">
 			<h3>Web visualization</h3>
 			<p>
 				Blazing fast data visualization that helps you easily understand
@@ -55,7 +55,7 @@
 			</p>
 		</div>
 		<div class="serviceItem">
-			<img src="assets/app_development.png" alt="App development">
+			<img src="assets/app_development.svg" alt="App development">
 			<h3>App development</h3>
 			<p>
 				If you need something bigger, we have experience in building
@@ -71,7 +71,7 @@
 			Metacity integrates geometry and metadata files which are then
 			quickly stylised and deployed as standalone visualizations.
 		</p>
-		<img src="assets/workshops_and_outcomes.svg" alt="diagram">
+		<img src="assets/process-horizontal.svg" alt="diagram">
 	</div>
 
 	<div id="contacts">

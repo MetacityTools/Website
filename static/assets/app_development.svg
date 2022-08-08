@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="169.767 94.739 118.822 130.559" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1,.cls-4{fill:#fff;}.cls-1,.cls-3,.cls-5,.cls-6{stroke:#484848;stroke-miterlimit:10;}.cls-1,.cls-3{stroke-width:3px;}.cls-2{fill:#484848;}.cls-3,.cls-5,.cls-6{fill:none;}.cls-6{stroke-width:0.75px;}</style>
+  </defs>
+  <g id="ap_dev" data-name="ap dev">
+    <rect class="cls-1" x="208.55" y="113.05" width="42" height="32" rx="2.57"/>
+    <circle class="cls-2" cx="181.05" cy="124.55" r="7"/>
+    <circle class="cls-2" cx="192.05" cy="123.55" r="8"/>
+    <circle class="cls-2" cx="194.05" cy="126.55" r="6"/>
+    <circle class="cls-2" cx="188.05" cy="117.55" r="6"/>
+    <circle class="cls-2" cx="197.05" cy="121.55" r="6"/>
+    <circle class="cls-2" cx="187.05" cy="128.55" r="5"/>
+    <rect class="cls-2" x="180.05" y="101.55" width="98" height="4" rx="2"/>
+    <rect class="cls-2" x="196.05" y="98.55" width="4" height="9"/>
+    <rect class="cls-1" x="186.55" y="143.22" width="49.77" height="38.83" rx="3.05"/>
+    <rect class="cls-3" x="202.55" y="186.22" width="34" height="33.83" rx="3.05"/>
+    <rect class="cls-3" x="241.55" y="157.22" width="28" height="56.83" rx="3.05"/>
+    <rect class="cls-2" x="257.05" y="123.05" width="27.5" height="4" rx="1.61"/>
+    <circle class="cls-4" cx="280.55" cy="126.05" r="0.5"/>
+    <circle class="cls-4" cx="281.55" cy="126.05" r="0.5"/>
+    <circle class="cls-4" cx="282.55" cy="126.05" r="0.5"/>
+    <rect class="cls-2" x="257.05" y="128.05" width="27.5" height="4" rx="1.61"/>
+    <circle class="cls-4" cx="280.55" cy="131.05" r="0.5"/>
+    <circle class="cls-4" cx="281.55" cy="131.05" r="0.5"/>
+    <circle class="cls-4" cx="282.55" cy="131.05" r="0.5"/>
+    <rect class="cls-2" x="257.05" y="133.05" width="27.5" height="4" rx="1.61"/>
+    <circle class="cls-4" cx="280.55" cy="136.05" r="0.5"/>
+    <circle class="cls-4" cx="281.55" cy="136.05" r="0.5"/>
+    <circle class="cls-4" cx="282.55" cy="136.05" r="0.5"/>
+    <rect class="cls-2" x="211.05" y="122.55" width="7" height="3" rx="1.5"/>
+    <rect class="cls-2" x="221.05" y="122.55" width="7" height="3" rx="1.5"/>
+    <rect class="cls-2" x="231.05" y="122.55" width="7" height="3" rx="1.5"/>
+    <rect class="cls-2" x="221.05" y="127.55" width="7" height="3" rx="1.5"/>
+    <rect class="cls-2" x="231.05" y="127.55" width="7" height="3" rx="1.5"/>
+    <rect class="cls-2" x="241.05" y="127.55" width="7" height="3" rx="1.5"/>
+    <rect class="cls-2" x="241.05" y="133.55" width="7" height="3" rx="1.5"/>
+    <line class="cls-5" x1="215.05" y1="124.05" x2="235.05" y2="124.05"/>
+    <line class="cls-5" x1="224.05" y1="129.05" x2="244.05" y2="129.05"/>
+    <path class="cls-5" d="M219.5,123.55v4.53a1,1,0,0,0,1,1h3.58"/>
+    <path class="cls-5" d="M239.66,129.05v5.26a.74.74,0,0,0,.74.74h4"/>
+    <circle class="cls-2" cx="252.55" cy="170.05" r="5"/>
+    <circle class="cls-2" cx="255.8" cy="196.3" r="2.75"/>
+    <circle class="cls-2" cx="259.55" cy="187.05" r="1.5"/>
+    <path class="cls-6" d="M256.44,184.81a3.83,3.83,0,0,1,6.94,2.24"/>
+    <path class="cls-6" d="M257.55,182.14a5.3,5.3,0,0,1,7.3,4.91"/>
+    <path class="cls-6" d="M252.67,187.05a6.88,6.88,0,1,1,13.76,0"/>
+    <line class="cls-5" x1="242.05" y1="205.05" x2="269.55" y2="205.05"/>
+    <path class="cls-2" d="M253.05,211.11h5a1.88,1.88,0,0,0,0-3.75h-5a1.88,1.88,0,1,0,0,3.75Z"/>
+    <path class="cls-2" d="M202.66,156.17l-6.57,6.58a3.86,3.86,0,0,0-1.11,1.48,2.78,2.78,0,0,0,.71,2.83c1.09,1.23,2.22,2.44,3.33,3.65l3.14,3.45c1.09,1.19,2.86-.58,1.77-1.77l-6-6.55c-.13-.14-.61-.54-.63-.7s.37-.47.52-.63l3.61-3.61,3-3a1.25,1.25,0,0,0-1.77-1.76Z"/>
+    <path class="cls-2" d="M221,174.16l6.58-6.58a4,4,0,0,0,1.1-1.49,2.77,2.77,0,0,0-.71-2.83c-1.09-1.23-2.22-2.43-3.33-3.65l-3.14-3.44c-1.09-1.2-2.85.58-1.77,1.76l6,6.56c.13.14.6.53.62.7s-.37.47-.52.62l-3.61,3.61-3,3a1.25,1.25,0,0,0,1.77,1.77Z"/>
+    <path class="cls-2" d="M213.34,156.72l-5.68,14.42-.82,2.08a1.25,1.25,0,1,0,2.41.66l5.68-14.42.82-2.08a1.26,1.26,0,0,0-.87-1.54,1.28,1.28,0,0,0-1.54.88Z"/>
+    <line class="cls-5" x1="188.05" y1="150.05" x2="235.05" y2="150.05"/>
+    <circle class="cls-2" cx="190.55" cy="147.05" r="1.5"/>
+    <circle class="cls-2" cx="194.55" cy="147.05" r="1.5"/>
+    <circle class="cls-2" cx="198.55" cy="147.05" r="1.5"/>
+    <rect class="cls-2" x="205.77" y="190.08" width="15" height="1.99" rx="1"/>
+    <rect class="cls-2" x="205.77" y="193.07" width="23" height="1.99" rx="1"/>
+    <rect class="cls-2" x="205.77" y="196.06" width="16" height="1.99" rx="1"/>
+    <rect class="cls-2" x="205.77" y="199.05" width="9.2" height="1.99" rx="1"/>
+    <rect class="cls-2" x="206.05" y="202.55" width="8" height="14" rx="2.26"/>
+    <rect class="cls-2" x="216.05" y="202.55" width="17" height="14" rx="2.26"/>
+  </g>
+</svg>
