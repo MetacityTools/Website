@@ -86,8 +86,7 @@ h1 .emph {
 }
 
 .container.heading .emph {
-	/*color: #9F7FF0;*/
-	color: #FFF;
+	color: #9F7FF0;
 }
 
 @media(max-width: 40rem) {
