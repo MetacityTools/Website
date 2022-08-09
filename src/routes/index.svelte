@@ -22,7 +22,6 @@
 
 <section class="container">
 	<div id="about">
-		<h2>About</h2>
 		<p>
 			We believe urban data visualization should make the city look like
 			a city, not a giant spreadsheet.
@@ -36,7 +35,6 @@
 	</div>
 	
 	<div id="services">
-		<h2>What else you can get</h2>
 		<div id="serviceContainer">
 		<div class="serviceItem">
 			<img src="assets/data_proces.svg" alt="Geo Data Processing">
@@ -66,7 +64,6 @@
 	</div>
 
 	<div id="howitworks">
-		<h2>How it works</h2>
 		<p>
 			Metacity integrates geometry and metadata files which are then
 			quickly stylised and deployed as standalone visualizations.
@@ -75,26 +72,25 @@
 	</div>
 
 	<div id="contacts">
-		<h2>Contact</h2>
 		<div id="contactContainer">
 			<div class="contactItem" id="startDialog">
 				<span>Still not sure?</span>
 				<span><a href="mailto:hello@metacity.cc">Talk to us →</a></span>
 			</div>
 			<div class="contactItem">
-				<span>Prague</span>
+				<span class="emph">Prague</span>
 				<span>hello@metacity.cc</span>
-				<span>Římská 12</span>
+				<span class="address">Římská 12</span>
 				<span>120 00 Praha 2</span>
 				<span>Czech Republic</span>
 			</div>
 			<div class="contactItem">
-				<span>Bor</span>
+				<span class="emph">Bor</span>
 				<span>Přimdská 362</span>
 				<span>348 02 Bor</span>
 				<span>Czech Republic</span>
-				<span>Reg. No.: 051 83 731</span>
-				<span>VAT: CZ05183731</span>
+				<span><span class="emph">Reg</span>. No.: 051 83 731</span>
+				<span><span class="emph">VAT</span>: CZ05183731</span>
 			</div>
 		</div>
 	</div>

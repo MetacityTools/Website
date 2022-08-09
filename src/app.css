@@ -16,6 +16,10 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-color: var(--primary-color);
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
 	background: linear-gradient(
 		180deg,
 		var(--primary-color) 0%,
@@ -45,6 +49,10 @@ h2 {
 	align-items: center;
 }
 
+canvas {
+	background: #FFF;
+}
+
 
 /*------------------------------------------------------*/
 
@@ -60,7 +68,8 @@ h1 .emph {
 #getintouch {
 	font-size: 1.5em;
 	/*background: #F5D125;*/
-	background: #3354FF;
+	/*background: #3354FF;*/
+	background: #ED6442;
 	color: #FFF;
 	border: none;
 	padding: 0.5rem 1.5rem;
@@ -74,6 +83,11 @@ h1 .emph {
 	max-width: 55rem;
 	margin-top: 2rem;
 	margin-bottom: 4rem;
+}
+
+.container.heading .emph {
+	/*color: #9F7FF0;*/
+	color: #FFF;
 }
 
 @media(max-width: 40rem) {
@@ -174,8 +188,13 @@ h1 .emph {
 	}
 }
 
-.contactItem span {
+.contactItem > span {
 	display: block;
+}
+
+.contactItem .emph {
+	color: #9F7FF0;
+	font-weight: 700;
 }
 
 #howitworks img {
@@ -207,11 +226,29 @@ h3 {
 	width: 100%;
 }
 
+#about a {
+	color: #ED6442;
+}
+
+#serviceContainer h3 {
+	color: #EDB937;
+}
+
 a, h3 {
 	color: #008800;
 	text-decoration: none;
 	font-weight: 700;
 }
+
+#contactContainer a {
+	color: #ED6442;
+}
+
+#contactContainer .address {
+	margin-top: 1rem;
+}
+
+
 
 /*------------------------------------------------------*/
 
